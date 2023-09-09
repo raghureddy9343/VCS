@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    border:0;
+    }
+    body{
+    height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    display:grid;
+    place-items:center;
+    background-color:gray;
+    }
+    img{
+      height:120px;
+      width:120px;
+      border:none;
+      border-radius:2px;
+    }
+    h1{
+    margin-bottom:2rem;
+    }
+    form{
+    display:flex;
+    flex-direction:column;
+    width:24rem;
+    gap:1rem;
+    }
+    input{
+    padding:1.4rem;
+    background:white;
+    border:1px solid black;
+    }
+    textarea{
+    height:6rem;
+    }
+    button{
+       background-color:red;
+       color:white;
+       height:35px;
+       width:100px;
+       border-radius:5px;
+       cursor:pointer;
+       border:none;
+       margin-left:110px;
+    }
+    p{
+      position:center;
+    }
+    div{
+      border:0.1px solid white;
+      padding: 20px 25px;
+      border-radius:5px;
+    }
